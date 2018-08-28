@@ -34,6 +34,20 @@ class ToCViewController: UITableViewController {
         
         return cell
     }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let segueIdentifier: String
+        switch indexPath.row {
+        case 0:
+            segueIdentifier = "FTSegue"
+        case 1:
+            segueIdentifier = "MathSegue"
+        default:
+            segueIdentifier = "MathSegue"
+        }
+        
+        self.performSegue(withIdentifier: segueIdentifier, sender: self)
+    }
 
 }
 
