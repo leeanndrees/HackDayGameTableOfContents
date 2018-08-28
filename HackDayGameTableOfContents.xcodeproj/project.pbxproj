@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4330F35C21358CDC005DCB1F /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4330F35B21358CDC005DCB1F /* MathViewController.swift */; };
 		43F622C821358715003BB72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F622C721358715003BB72C /* AppDelegate.swift */; };
 		43F622CA21358715003BB72C /* ToCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F622C921358715003BB72C /* ToCViewController.swift */; };
 		43F622CD21358715003BB72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F622CB21358715003BB72C /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4330F35B21358CDC005DCB1F /* MathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
 		43F622C421358715003BB72C /* HackDayGameTableOfContents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackDayGameTableOfContents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F622C721358715003BB72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43F622C921358715003BB72C /* ToCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToCViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				43F622C721358715003BB72C /* AppDelegate.swift */,
 				43F622C921358715003BB72C /* ToCViewController.swift */,
+				4330F35B21358CDC005DCB1F /* MathViewController.swift */,
 				43F622CB21358715003BB72C /* Main.storyboard */,
 				43F622CE21358716003BB72C /* Assets.xcassets */,
 				43F622D021358716003BB72C /* LaunchScreen.storyboard */,
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4330F35C21358CDC005DCB1F /* MathViewController.swift in Sources */,
 				43F622CA21358715003BB72C /* ToCViewController.swift in Sources */,
 				43F622C821358715003BB72C /* AppDelegate.swift in Sources */,
 			);
