@@ -81,6 +81,7 @@ class MathViewController: UIViewController {
     func practiceMath() {
         MathViewController.theMathProblem = createMathProblem()
         mathProblemLabel.text = MathViewController.theMathProblem?.theProblemString
+        answerInputField.text = ""
     }
     
 
