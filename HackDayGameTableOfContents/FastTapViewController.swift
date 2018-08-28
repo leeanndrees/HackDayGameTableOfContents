@@ -10,16 +10,21 @@ import UIKit
 
 class FTViewController: UIViewController {
     
+    //MARK: - IBOutlets
+    
     @IBOutlet weak var numberOfTaps: UILabel!
     @IBOutlet weak var timer: UILabel!
     @IBOutlet weak var winOrLose: UILabel!
     @IBOutlet weak var disableButton: UIButton!
     
+    //MARK: - Properties
     
     var tap = 0
     var isTimerStarted = false
     var countdownTimer: Timer!
     var totalTime = 30
+    
+    //MARK: - LifeCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,9 +36,8 @@ class FTViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-   
+    //MARK: - Methods
     
-
     /// Starts the timer
     func startTimer() {
         countdownTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
@@ -65,7 +69,13 @@ class FTViewController: UIViewController {
         isTimerStarted = false
     }
     
-
+    func gameAlertWin() {
+        let alert = UIAlertController(title: "Times Up", message: "You Win", preferredStyle: .alert)
+        let startOverAction = UIAlertAction(title: "Start Over", style: .destructive, handler: nil)
+        
+    }
+    
+    
     
     @IBAction func score(_ sender: UIButton) {
         // literally want tap to increase by 1 every time the button is pressed
