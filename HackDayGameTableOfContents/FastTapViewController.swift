@@ -55,9 +55,9 @@ class FTViewController: UIViewController {
             endTimer()
             disableButton.isEnabled = false
             if tap >= 50 {
-                gameAlertWin()
+                endGameAlert()
             } else {
-                winOrLose.text = "Try Again!!!"
+                endGameAlert()
             }
         }
         timer.text = "\(totalTime)"
@@ -69,17 +69,28 @@ class FTViewController: UIViewController {
         isTimerStarted = false
     }
     
-    func gameAlertWin() {
-        let alert = UIAlertController(title: "Times Up", message: "You Win", preferredStyle: .alert)
+    func endGameAlert() {
+        let alertWin = UIAlertController(title: "Times Up", message: "You Win!", preferredStyle: .alert)
+        let alertLose = UIAlertController(title: "Times Up!", message: "You Lose!", preferredStyle: .alert)
         let startOverAction = UIAlertAction(title: "Start Over", style: .destructive, handler: restartGame)
         let quit = UIAlertAction(title: "Quit", style: .cancel, handler: nil)
         
-        alert.addAction(startOverAction)
-        alert.addAction(quit)
-        
-        present(alert, animated: true, completion: nil)
+        if tap >= 50 {
+            alertWin.addAction(startOverAction)
+            alertWin.addAction(quit)
+            present(alertWin, animated: true, completion: nil)
+        } else {
+            alertLose.addAction(startOverAction)
+            alertLose.addAction(quit)
+            present(alertLose, animated: true, completion: nil)
+        }
         
     }
+    
+//    func gameAlertLose() {
+//        let alertLose = UIAlertController(title: "Times Up!", message: "You Lose!", preferredStyle: .alert)
+//        let
+//    }
     
     func restartGame(userAction: UIAlertAction) {
         tap = 0
