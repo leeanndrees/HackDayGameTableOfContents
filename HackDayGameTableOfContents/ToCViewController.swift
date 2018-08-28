@@ -10,6 +10,8 @@ import UIKit
 
 class ToCViewController: UITableViewController {
 
+    var gamesList = ["Faster Tapper", "Math Practice"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -27,6 +29,8 @@ class ToCViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ToCItem", for: indexPath)
+        
+        cell.textLabel?.text = gamesList[indexPath.row]
         
         return cell
     }
