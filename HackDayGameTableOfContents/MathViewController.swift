@@ -35,11 +35,9 @@ class MathViewController: UIViewController {
         let op2 = operands[Int(arc4random_uniform(UInt32(operands.count)))]
         var theOperator = operators[Int(arc4random_uniform(UInt32(operators.count)))]
         if theOperator == "/" && op1 % op2 != 0 {
-            print("\(op1) \(op2) need a new operator")
             theOperator = getNewOperator()
         }
         let theProblemString = "\(op1) \(theOperator) \(op2)"
-        print(theProblemString)
         return (op1: op1, op2: op2, theOperator: theOperator, theProblemString: theProblemString)
     }
     
