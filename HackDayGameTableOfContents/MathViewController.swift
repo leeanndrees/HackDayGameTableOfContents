@@ -100,6 +100,7 @@ class MathViewController: UIViewController {
                 else {
                     score-=1
                 }
+                scoreLabel.text = String(score)
                 viewDidLoad()
             }
     }
