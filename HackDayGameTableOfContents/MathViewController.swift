@@ -69,18 +69,16 @@ class MathViewController: UIViewController {
         return gotItRight
     }
 
+    func practiceMath() {
+        MathViewController.theMathProblem = createMathProblem()
+        mathProblemLabel.text = MathViewController.theMathProblem?.theProblemString
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        MathViewController.theMathProblem = createMathProblem()
-        mathProblemLabel.text = MathViewController.theMathProblem?.theProblemString
-        
-        //let userAnswer = Int(answerInputField.text!)!
-        
-        scoreLabel.isHidden = false
-        
+        practiceMath()
     }
     
     @IBAction func checkButton(_ sender: Any) {
@@ -101,7 +99,7 @@ class MathViewController: UIViewController {
                     score-=1
                 }
                 scoreLabel.text = String(score)
-                viewDidLoad()
+                practiceMath()
             }
     }
     
