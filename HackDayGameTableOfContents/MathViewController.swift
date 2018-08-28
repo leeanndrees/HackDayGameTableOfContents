@@ -106,7 +106,6 @@ class MathViewController: UIViewController {
     
     @IBAction func resetButton(_ sender: Any) {
         score = 0
-        scoreLabel.isHidden = false
         scoreLabel.text = String(score)
     }
     
