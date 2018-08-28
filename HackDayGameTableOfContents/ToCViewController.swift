@@ -10,7 +10,7 @@ import UIKit
 
 class ToCViewController: UITableViewController {
 
-    var gamesList = ["Faster Tapper", "Math Practice"]
+    var gamesList = ["Faster Tapper", "Math Practice", "Nature Trivia!"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class ToCViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -46,6 +46,8 @@ class ToCViewController: UITableViewController {
             segueIdentifier = "FTSegue"
         case 1:
             segueIdentifier = "MathSegue"
+        case 2:
+            segueIdentifier = "TriviaSegue"
         default:
             segueIdentifier = "MathSegue"
         }

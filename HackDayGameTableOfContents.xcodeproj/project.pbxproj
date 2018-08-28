@@ -14,6 +14,7 @@
 		43F622CD21358715003BB72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F622CB21358715003BB72C /* Main.storyboard */; };
 		43F622CF21358716003BB72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F622CE21358716003BB72C /* Assets.xcassets */; };
 		43F622D221358716003BB72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F622D021358716003BB72C /* LaunchScreen.storyboard */; };
+		EBF5E46A2135D5CD00FF3188 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF5E4692135D5CD00FF3188 /* TriviaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		43F622D321358716003BB72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43F622D821358716003BB72C /* HackDayGameTableOfContentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackDayGameTableOfContentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F622E321358716003BB72C /* HackDayGameTableOfContentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackDayGameTableOfContentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF5E4692135D5CD00FF3188 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				43F622C921358715003BB72C /* ToCViewController.swift */,
 				4361143A2135BD6C0035B143 /* FastTapViewController.swift */,
 				4330F35B21358CDC005DCB1F /* MathViewController.swift */,
+				EBF5E4692135D5CD00FF3188 /* TriviaViewController.swift */,
 				43F622CB21358715003BB72C /* Main.storyboard */,
 				43F622CE21358716003BB72C /* Assets.xcassets */,
 				43F622D021358716003BB72C /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF5E46A2135D5CD00FF3188 /* TriviaViewController.swift in Sources */,
 				4361143B2135BD6C0035B143 /* FastTapViewController.swift in Sources */,
 				4330F35C21358CDC005DCB1F /* MathViewController.swift in Sources */,
 				43F622CA21358715003BB72C /* ToCViewController.swift in Sources */,
