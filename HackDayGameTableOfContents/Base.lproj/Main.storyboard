@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XSQ-0o-Cbc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fmX-L3-y1Z">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -35,6 +35,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Jdx-td-OzT" kind="show" identifier="MathSegue" id="859-6w-eTs"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -42,10 +45,11 @@
                             <outlet property="delegate" destination="XSQ-0o-Cbc" id="1OL-Bb-Icm"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="lMR-VD-jP1"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wT3-tD-eTC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-66.400000000000006" y="135.38230884557723"/>
+            <point key="canvasLocation" x="872.79999999999995" y="135.38230884557723"/>
         </scene>
         <!--Math View Controller-->
         <scene sceneID="KM0-bP-QmJ">
@@ -105,7 +109,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KSw-zK-9k3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="726" y="135"/>
+            <point key="canvasLocation" x="1716" y="134.48275862068968"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="mnR-Rg-nhC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fmX-L3-y1Z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GJb-4I-oYh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="XSQ-0o-Cbc" kind="relationship" relationship="rootViewController" id="5R6-lV-AL4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q62-XP-EyZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66.400000000000006" y="135.38230884557723"/>
         </scene>
     </scenes>
 </document>
