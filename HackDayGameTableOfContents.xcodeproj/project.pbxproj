@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43F622C821358715003BB72C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F622C721358715003BB72C /* AppDelegate.swift */; };
+		43F622CA21358715003BB72C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F622C921358715003BB72C /* ViewController.swift */; };
+		43F622CD21358715003BB72C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F622CB21358715003BB72C /* Main.storyboard */; };
+		43F622CF21358716003BB72C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F622CE21358716003BB72C /* Assets.xcassets */; };
+		43F622D221358716003BB72C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F622D021358716003BB72C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43F622D921358716003BB72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F622BC21358715003BB72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F622C321358715003BB72C;
+			remoteInfo = HackDayGameTableOfContents;
+		};
+		43F622E421358716003BB72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43F622BC21358715003BB72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43F622C321358715003BB72C;
+			remoteInfo = HackDayGameTableOfContents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43F622C421358715003BB72C /* HackDayGameTableOfContents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackDayGameTableOfContents.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F622C721358715003BB72C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43F622C921358715003BB72C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43F622CC21358715003BB72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43F622CE21358716003BB72C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43F622D121358716003BB72C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43F622D321358716003BB72C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43F622D821358716003BB72C /* HackDayGameTableOfContentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackDayGameTableOfContentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F622E321358716003BB72C /* HackDayGameTableOfContentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackDayGameTableOfContentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43F622C121358715003BB72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F622D521358716003BB72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F622E021358716003BB72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43F622BB21358715003BB72C = {
+			isa = PBXGroup;
+			children = (
+				43F622C621358715003BB72C /* HackDayGameTableOfContents */,
+				43F622C521358715003BB72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43F622C521358715003BB72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43F622C421358715003BB72C /* HackDayGameTableOfContents.app */,
+				43F622D821358716003BB72C /* HackDayGameTableOfContentsTests.xctest */,
+				43F622E321358716003BB72C /* HackDayGameTableOfContentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43F622C621358715003BB72C /* HackDayGameTableOfContents */ = {
+			isa = PBXGroup;
+			children = (
+				43F622C721358715003BB72C /* AppDelegate.swift */,
+				43F622C921358715003BB72C /* ViewController.swift */,
+				43F622CB21358715003BB72C /* Main.storyboard */,
+				43F622CE21358716003BB72C /* Assets.xcassets */,
+				43F622D021358716003BB72C /* LaunchScreen.storyboard */,
+				43F622D321358716003BB72C /* Info.plist */,
+			);
+			path = HackDayGameTableOfContents;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43F622C321358715003BB72C /* HackDayGameTableOfContents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F622EC21358716003BB72C /* Build configuration list for PBXNativeTarget "HackDayGameTableOfContents" */;
+			buildPhases = (
+				43F622C021358715003BB72C /* Sources */,
+				43F622C121358715003BB72C /* Frameworks */,
+				43F622C221358715003BB72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackDayGameTableOfContents;
+			productName = HackDayGameTableOfContents;
+			productReference = 43F622C421358715003BB72C /* HackDayGameTableOfContents.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43F622D721358716003BB72C /* HackDayGameTableOfContentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F622EF21358716003BB72C /* Build configuration list for PBXNativeTarget "HackDayGameTableOfContentsTests" */;
+			buildPhases = (
+				43F622D421358716003BB72C /* Sources */,
+				43F622D521358716003BB72C /* Frameworks */,
+				43F622D621358716003BB72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F622DA21358716003BB72C /* PBXTargetDependency */,
+			);
+			name = HackDayGameTableOfContentsTests;
+			productName = HackDayGameTableOfContentsTests;
+			productReference = 43F622D821358716003BB72C /* HackDayGameTableOfContentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43F622E221358716003BB72C /* HackDayGameTableOfContentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43F622F221358716003BB72C /* Build configuration list for PBXNativeTarget "HackDayGameTableOfContentsUITests" */;
+			buildPhases = (
+				43F622DF21358716003BB72C /* Sources */,
+				43F622E021358716003BB72C /* Frameworks */,
+				43F622E121358716003BB72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43F622E521358716003BB72C /* PBXTargetDependency */,
+			);
+			name = HackDayGameTableOfContentsUITests;
+			productName = HackDayGameTableOfContentsUITests;
+			productReference = 43F622E321358716003BB72C /* HackDayGameTableOfContentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43F622BC21358715003BB72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = DetroitLabs;
+				TargetAttributes = {
+					43F622C321358715003BB72C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					43F622D721358716003BB72C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 43F622C321358715003BB72C;
+					};
+					43F622E221358716003BB72C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 43F622C321358715003BB72C;
+					};
+				};
+			};
+			buildConfigurationList = 43F622BF21358715003BB72C /* Build configuration list for PBXProject "HackDayGameTableOfContents" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43F622BB21358715003BB72C;
+			productRefGroup = 43F622C521358715003BB72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43F622C321358715003BB72C /* HackDayGameTableOfContents */,
+				43F622D721358716003BB72C /* HackDayGameTableOfContentsTests */,
+				43F622E221358716003BB72C /* HackDayGameTableOfContentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43F622C221358715003BB72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F622D221358716003BB72C /* LaunchScreen.storyboard in Resources */,
+				43F622CF21358716003BB72C /* Assets.xcassets in Resources */,
+				43F622CD21358715003BB72C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F622D621358716003BB72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F622E121358716003BB72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43F622C021358715003BB72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F622CA21358715003BB72C /* ViewController.swift in Sources */,
+				43F622C821358715003BB72C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F622D421358716003BB72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43F622DF21358716003BB72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43F622DA21358716003BB72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F622C321358715003BB72C /* HackDayGameTableOfContents */;
+			targetProxy = 43F622D921358716003BB72C /* PBXContainerItemProxy */;
+		};
+		43F622E521358716003BB72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43F622C321358715003BB72C /* HackDayGameTableOfContents */;
+			targetProxy = 43F622E421358716003BB72C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43F622CB21358715003BB72C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F622CC21358715003BB72C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43F622D021358716003BB72C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43F622D121358716003BB72C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43F622EA21358716003BB72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43F622EB21358716003BB72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43F622ED21358716003BB72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDayGameTableOfContents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HackDayGameTableOfContents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43F622EE21358716003BB72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDayGameTableOfContents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HackDayGameTableOfContents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43F622F021358716003BB72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDayGameTableOfContentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HackDayGameTableOfContentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackDayGameTableOfContents.app/HackDayGameTableOfContents";
+			};
+			name = Debug;
+		};
+		43F622F121358716003BB72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDayGameTableOfContentsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HackDayGameTableOfContentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HackDayGameTableOfContents.app/HackDayGameTableOfContents";
+			};
+			name = Release;
+		};
+		43F622F321358716003BB72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDayGameTableOfContentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HackDayGameTableOfContentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackDayGameTableOfContents;
+			};
+			name = Debug;
+		};
+		43F622F421358716003BB72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HackDayGameTableOfContentsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.detroitlabs.HackDayGameTableOfContentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HackDayGameTableOfContents;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43F622BF21358715003BB72C /* Build configuration list for PBXProject "HackDayGameTableOfContents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F622EA21358716003BB72C /* Debug */,
+				43F622EB21358716003BB72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F622EC21358716003BB72C /* Build configuration list for PBXNativeTarget "HackDayGameTableOfContents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F622ED21358716003BB72C /* Debug */,
+				43F622EE21358716003BB72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F622EF21358716003BB72C /* Build configuration list for PBXNativeTarget "HackDayGameTableOfContentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F622F021358716003BB72C /* Debug */,
+				43F622F121358716003BB72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43F622F221358716003BB72C /* Build configuration list for PBXNativeTarget "HackDayGameTableOfContentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43F622F321358716003BB72C /* Debug */,
+				43F622F421358716003BB72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43F622BC21358715003BB72C /* Project object */;
+}
