@@ -23,8 +23,8 @@ class MathViewController: UIViewController {
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var resetButton: UIButton!
     
-    let operands = [2, 10, 20, 40, 4, 80, 100]
-    let operators = ["+", "-", "/", "*"]
+    var operands = [2, 10, 20, 40, 4, 80, 100]
+    var operators = ["+", "-", "/", "*"]
 
     var score = 0
     
@@ -33,10 +33,19 @@ class MathViewController: UIViewController {
     func createMathProblem() -> (op1: Int, op2: Int, theOperator: String, theProblemString: String) {
         let op1 = operands[Int(arc4random_uniform(UInt32(operands.count)))]
         let op2 = operands[Int(arc4random_uniform(UInt32(operands.count)))]
-        let theOperator = operators[Int(arc4random_uniform(UInt32(operators.count)))]
+        var theOperator = operators[Int(arc4random_uniform(UInt32(operators.count)))]
+        if theOperator == "/" && op1 % op2 != 0 {
+            print("\(op1) \(op2) need a new operator")
+            theOperator = getNewOperator()
+        }
         let theProblemString = "\(op1) \(theOperator) \(op2)"
         print(theProblemString)
         return (op1: op1, op2: op2, theOperator: theOperator, theProblemString: theProblemString)
+    }
+    
+    func getNewOperator() -> String {
+        let theOperator = operators[Int(arc4random_uniform(UInt32(operators.count)))]
+        return theOperator
     }
     
     func solveMath(op1: Int, theOperator: String, op2: Int) -> Int {
@@ -69,18 +78,16 @@ class MathViewController: UIViewController {
         return gotItRight
     }
 
+    func practiceMath() {
+        MathViewController.theMathProblem = createMathProblem()
+        mathProblemLabel.text = MathViewController.theMathProblem?.theProblemString
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        MathViewController.theMathProblem = createMathProblem()
-        mathProblemLabel.text = MathViewController.theMathProblem?.theProblemString
-        
-        //let userAnswer = Int(answerInputField.text!)!
-        
-        scoreLabel.isHidden = false
-        
+        practiceMath()
     }
     
     @IBAction func checkButton(_ sender: Any) {
@@ -100,14 +107,14 @@ class MathViewController: UIViewController {
                 else {
                     score-=1
                 }
-                viewDidLoad()
+                scoreLabel.text = String(score)
+                practiceMath()
             }
     }
     
     
     @IBAction func resetButton(_ sender: Any) {
         score = 0
-        scoreLabel.isHidden = false
         scoreLabel.text = String(score)
     }
     
